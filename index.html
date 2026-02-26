@@ -2,14 +2,12 @@
 <html>
   <head>
    <title>My Portfolio</title>
-
-
-
+   <link rel="stylesheet" href="styles.css">
   </head>
   <body>
    
     <!--NAVBAR-->
-   <nav>
+   <nav class="navbar">
      <ul style="display:flex;
      justify-content: space-between;">
       <li>
@@ -32,6 +30,7 @@
    
    <!--HOME SECTION-->
    <section id="home">
+  
     <h1>Welcome to My Portfolio</h1>
     <p>Hello! My name is Fatima. This is my personal portfolio website.</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RzjWJHwFL-E?si=nK22VI-852NPoHDO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -102,7 +101,7 @@
     <label>Message:</label><br/>
     <textarea rows="4" cols="30"></textarea><br/>
 
-    <input type="submit" value="send">
+    <input class="send" type="submit" value="send">
    </form>
 
    <!--FOOTER-->
@@ -113,11 +112,3 @@
 
   </body>
 </html>
-
-echo "# MyPortfolio" >> README.md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/fatimakoca/MyPortfolio.git
-git push -u origin main
